@@ -1,0 +1,32 @@
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <header class="mdl-layout__header mdl-layout__header--scroll">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">LabApp</span>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer" ></div>
+      <!-- Navigation -->
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" ui-sref="/">Inicio</a>
+        <a class="mdl-navigation__link" ui-sref="/">¿Quienes somos?</a>
+        <a class="mdl-navigation__link" ui-sref="/Login">Login</a>
+        <a class="mdl-navigation__link" ui-sref="/Register">Registro</a>
+      </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer" ng-if="log==='true'">
+    <span class="mdl-layout-title" ng-if="log==='true'">LabApp</span>
+    <nav class="mdl-navigation" ng-hide="log==='true'">
+      <a class="mdl-navigation__link" href="">Link</a>
+      <a class="mdl-navigation__link" href="">Link</a>
+      <a class="mdl-navigation__link" href="">Link</a>
+      <a class="mdl-navigation__link" href="">Link</a>
+    </nav>
+  </div>
+  <main class="mdl-layout__content">
+			    <div  ui-view >
+			    	
+			    </div>
+
+	</main>
+   </div>

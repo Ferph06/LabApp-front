@@ -1,0 +1,32 @@
+{
+  "name": "fislab",
+  "version": "1.0.0",
+  "description": "Aplicacion para ayudar con la materia de fisica",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Aplicacion",
+    "para",
+    "ayudar",
+    "en",
+    "la",
+    "materia",
+    "de",
+    "fisica"
+  ],
+  "author": "Fernando Perez",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.2",
+    "express": "^4.14.0",
+    "grunt": "^1.0.1",
+    "gulp": "^3.9.1",
+    "http-server": "^0.9.0"
+  },
+  "dependencies": {
+    "bower": "^1.8.0",
+    "gulp-live-server": "0.0.30"
+  }
+}
